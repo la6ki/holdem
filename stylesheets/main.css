@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: lightgoldenrodyellow;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+main {
+    font-size: 0;
+    position: relative;
+    cursor: default;
+    height: 100vh;
+}
+
+main > div {
+    position: absolute;
+}
+
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
