@@ -1,0 +1,19 @@
+{
+  "name": "Holdem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js -o bundle.js",
+    "watch": "watchify main.js -o bundle.js"
+  },
+  "author": "Lyuben Laskin",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "watchify": "^3.3.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
